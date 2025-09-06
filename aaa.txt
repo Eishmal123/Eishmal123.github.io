@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - My First Website</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #0d1b2a; /* Dark blue background */
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            padding: 50px 20px;
+            border-bottom: 6px double #00f; /* Blue double line */
+            box-shadow: 0 0 20px #00f, 0 0 40px #00f, 0 0 60px #00f; /* Glowing effect */
+            text-shadow: 2px 2px #0000cc;
+        }
+
+        header h1 {
+            font-size: 50px;
+            margin: 0;
+            color: #00f;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            border: 4px double #00f;
+            box-shadow: 0 0 15px #00f, 0 0 30px #00f;
+            border-radius: 15px;
+        }
+
+        section h2 {
+            color: #00f;
+            font-size: 36px;
+            margin-bottom: 20px;
+            text-shadow: 1px 1px #0000cc;
+        }
+
+        section p {
+            font-size: 20px;
+            line-height: 1.6;
+            color: #cce6ff;
+            text-align: justify;
+        }
+
+        footer {
+            padding: 20px;
+            border-top: 6px double #00f;
+            box-shadow: 0 0 20px #00f, 0 0 40px #00f;
+            margin-top: 50px;
+            color: #00f;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My World!</h1>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>Hello! I am a passionate 9th-grade student, eager to explore the exciting world of web development. I love creating beautiful websites and experimenting with HTML, CSS, and design. I enjoy learning new skills, coding small projects, and sharing my work with the world.</p>
+    </section>
+
+    <section>
+        <h2>About This Website</h2>
+        <p>This website is my very first personal project. It reflects my creativity, style, and passion for coding. Here, I aim to showcase my journey in learning web development, experimenting with design elements, and building something that is uniquely mine. This page is a step towards creating more complex and beautiful websites in the future.</p>
+    </section>
+
+    <footer>
+        Created with ?? by Me | My First Beautiful Website
+    </footer>
+
+</body>
+</html>
